@@ -45,7 +45,7 @@ This repository contains the code for a **Community Incident Reporting Platform*
 #### **How to Use:**
 1. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/yourusername/community-incident-reporting.git
+   git clone https://karlDM3/community-incident-reporting.git
    ```
 
 2. **Install dependencies**:

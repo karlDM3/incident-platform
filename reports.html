@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Reports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Community Incident Reports</h1>
+    <a href="/logout">Logout</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Location</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for report in reports %}
+            <tr>
+                <td>{{ report[1] }}</td>
+                <td>{{ report[2] }}</td>
+                <td>{{ report[3] }}</td>
+                <td>{{ report[4] }}</td>
+                <td>{{ report[5] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
